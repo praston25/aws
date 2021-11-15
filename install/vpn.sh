@@ -22,6 +22,7 @@ cp /etc/openvpn/easy-rsa/vars.example /etc/openvpn/easy-rsa/vars
 
 # Kemudian edit file variabel easy-rsa
 # nano /etc/openvpn/easy-rsa/vars
+GitUser="syapik96"
 wget -O /etc/openvpn/easy-rsa/vars "https://raw.githubusercontent.com/${GitUser}/aws/main/vars.conf"
 # edit projek export KEY_NAME="vpn"
 # Save dan keluar dari editor
